@@ -52,6 +52,10 @@ app.get('/',(req,res)=>{
     res.send('Server is running . All data is successfully fetch')
 })
 
+app.get('/user',(req,res)=>{
+    res.send('Server is running . All data is successfully fetch.Everything setup complete')
+})
+
 
 // listen port
 app.listen(port,(req,res)=>{
